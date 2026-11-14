@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     default: "Food Project",
     template: "%s | Food Project",
   },
-  description: "Painel administrativo do Food Project",
+  description: "Plataforma de pedidos e gerenciamento de restaurantes",
 };
 
 export default function RootLayout({
