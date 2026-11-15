@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import { Suspense } from "react";
+import { Toaster } from "@/components/ui/sonner";
 import { redirect } from "next/navigation";
 
 import AdminShell from "@/components/layout/admin-shell";
@@ -27,6 +28,7 @@ export default function AdminLayout({ children }: { children: ReactNode }) {
       }
     >
       <AdminContent>{children}</AdminContent>
+      <Toaster />
     </Suspense>
   );
 }
